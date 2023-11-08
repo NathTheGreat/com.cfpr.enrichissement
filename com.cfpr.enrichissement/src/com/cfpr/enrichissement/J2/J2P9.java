@@ -13,12 +13,13 @@ public class J2P9 {
 		
 		rayon = saisirClavier();
 		circonference = calculerCirconference(rayon);
+		afficherMessage(""+circonference);
 	}
 	
 	public static double calculerCirconference(double rayon) {
 		double circonference;
 		
-		circonference= 2*rayon*
+		circonference= 2*rayon*Math.PI;
 		
 		return circonference;
 	}
@@ -36,4 +37,5 @@ public class J2P9 {
 	public static void afficherMessage(String message) {
 		System.out.println(message);
 	}
+	
 }
