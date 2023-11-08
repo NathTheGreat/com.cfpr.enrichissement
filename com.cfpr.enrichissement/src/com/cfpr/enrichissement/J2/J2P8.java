@@ -17,7 +17,7 @@ public class J2P8 {
 		
 		listeMots = faireBoucle();
 		
-		listeMots.sort();
+		
 		
 		afficherMessage(listeMots);
 		
