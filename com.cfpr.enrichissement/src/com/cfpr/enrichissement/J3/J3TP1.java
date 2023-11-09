@@ -21,7 +21,7 @@ public class J3TP1 {
 							   MSG_ECHEC="Vous n'avez plus d'essais le nombre etait ",
 							   MSG_ACCEUILRANDOM="Bienvenue, entrez un nombre pour commencer";
 	
-	 public static void main(String[] args) {
+	public static void main(String[] args) {
 		 int choix=0;
 		 afficherMessage(MSG_ACCEUIL);
 		 choix = lireMenu();
@@ -82,7 +82,6 @@ public class J3TP1 {
 		System.out.println(message);
 	}
 	
-
 	public static double lireClavier() {
 		double argent =0;
 		

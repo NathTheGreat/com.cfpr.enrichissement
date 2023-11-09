@@ -9,7 +9,6 @@ public class J2P8 {
 	public static ArrayList<String> listeMots = new ArrayList<>();
 	public static String MSG_DEMANDE = "Veuillez entrez des mots: ";
 						 
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -38,7 +37,6 @@ public class J2P8 {
 		
 		return listeMotsBoucle;
 	}
-	
 	
 	public static String lireClavier() {
 		String mot ="";
