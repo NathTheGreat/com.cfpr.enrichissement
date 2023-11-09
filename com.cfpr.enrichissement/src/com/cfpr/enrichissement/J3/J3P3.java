@@ -7,6 +7,7 @@ public class J3P3 {
 	static Scanner lectureClavier = new Scanner(System.in);
 	static public final String MSG_DEMANDE = "Entrez un nombre: ";
 	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
