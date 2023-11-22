@@ -19,7 +19,7 @@ public class J4P7 {
 	}
 	
 	public static void scannerTab(int[] tab) {
-		int[] tabResultat= {0,0,0,0,0};
+		int[] tabResultat=new int[5];
 		for(int i=0;i<tab.length;i++) {
 			switch(tab[i]) {
 			case 0:
